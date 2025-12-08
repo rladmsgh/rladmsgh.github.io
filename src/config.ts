@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
+  name: "김은호",
   title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Portfolio website of 김은호",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
+    email: "krladmsgh@gmail.com",
     linkedin: "https://linkedin.com/in/yourprofile",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/RyanFitzgerald",
@@ -14,25 +14,25 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Air Pollution Inquiry Mashup",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "한국환경공단 에어코리아 Open API를 이용해 시·도별 실시간 대기오염 정보를 조회하는 웹 서비스입니다.",
+      link: "https://air-pollution-2022810020.netlify.app",
+      skills: ["HTML", "CSS", "JavaScript", "Open API"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "서울시 문화행사 알리미",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "서울시 문화행사 Open API를 이용해 공연·전시 정보를 검색하고, PWA로 설치해 사용할 수 있도록 만든 웹앱입니다.",
+      link: "https://eventpwa-2022810020.netlify.app",
+      skills: ["HTML", "CSS", "JavaScript", "PWA"],
     },
     {
-      name: "ExtensionKit",
+      name: "Kakao Map을 이용한 서울시 공공도서관 검색 Mashup",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "서울시 공공도서관 정보와 Kakao Map을 결합해 지도에서 도서관 위치와 상세 정보를 확인할 수 있는 Mashup 서비스입니다.",
+      link: "https://seoul-library-search-mashup2022810020.netlify.app",
+      skills: ["HTML", "CSS", "JavaScript", "Kakao Map API"],
     },
   ],
   experience: [
